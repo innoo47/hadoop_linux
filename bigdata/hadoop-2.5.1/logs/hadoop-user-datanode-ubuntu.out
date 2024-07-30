@@ -1,18 +1,18 @@
-7월 28, 2024 11:33:15 오후 com.sun.jersey.api.core.PackagesResourceConfig init
+7월 29, 2024 5:59:25 오후 com.sun.jersey.api.core.PackagesResourceConfig init
 정보: Scanning for root resource and provider classes in the packages:
   org.apache.hadoop.hdfs.server.datanode.web.resources
   org.apache.hadoop.hdfs.web.resources
-7월 28, 2024 11:33:15 오후 com.sun.jersey.api.core.ScanningResourceConfig logClasses
+7월 29, 2024 5:59:26 오후 com.sun.jersey.api.core.ScanningResourceConfig logClasses
 정보: Root resource classes found:
   class org.apache.hadoop.hdfs.server.datanode.web.resources.DatanodeWebHdfsMethods
-7월 28, 2024 11:33:15 오후 com.sun.jersey.api.core.ScanningResourceConfig logClasses
+7월 29, 2024 5:59:26 오후 com.sun.jersey.api.core.ScanningResourceConfig logClasses
 정보: Provider classes found:
   class org.apache.hadoop.hdfs.web.resources.UserProvider
   class org.apache.hadoop.hdfs.server.datanode.web.resources.OpenEntity$Writer
   class org.apache.hadoop.hdfs.web.resources.ExceptionHandler
-7월 28, 2024 11:33:15 오후 com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+7월 29, 2024 5:59:26 오후 com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
 정보: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
-7월 28, 2024 11:33:16 오후 com.sun.jersey.spi.inject.Errors processErrorMessages
+7월 29, 2024 5:59:26 오후 com.sun.jersey.spi.inject.Errors processErrorMessages
 경고: The following warnings have been detected with resource and/or provider classes:
   WARNING: A sub-resource method, public javax.ws.rs.core.Response org.apache.hadoop.hdfs.server.datanode.web.resources.DatanodeWebHdfsMethods.putRoot(java.io.InputStream,org.apache.hadoop.security.UserGroupInformation,org.apache.hadoop.hdfs.web.resources.DelegationParam,org.apache.hadoop.hdfs.web.resources.NamenodeAddressParam,org.apache.hadoop.hdfs.web.resources.PutOpParam,org.apache.hadoop.hdfs.web.resources.PermissionParam,org.apache.hadoop.hdfs.web.resources.OverwriteParam,org.apache.hadoop.hdfs.web.resources.BufferSizeParam,org.apache.hadoop.hdfs.web.resources.ReplicationParam,org.apache.hadoop.hdfs.web.resources.BlockSizeParam) throws java.io.IOException,java.lang.InterruptedException, with URI template, "/", is treated as a resource method
   WARNING: A sub-resource method, public javax.ws.rs.core.Response org.apache.hadoop.hdfs.server.datanode.web.resources.DatanodeWebHdfsMethods.postRoot(java.io.InputStream,org.apache.hadoop.security.UserGroupInformation,org.apache.hadoop.hdfs.web.resources.DelegationParam,org.apache.hadoop.hdfs.web.resources.NamenodeAddressParam,org.apache.hadoop.hdfs.web.resources.PostOpParam,org.apache.hadoop.hdfs.web.resources.BufferSizeParam) throws java.io.IOException,java.lang.InterruptedException, with URI template, "/", is treated as a resource method
